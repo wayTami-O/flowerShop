@@ -1,7 +1,10 @@
 export default interface SwiperType {
-    title: String, 
-    price: String,
-    img: String,
-    link: String,
-    wishList: Boolean
+    title: string, 
+    price: string,
+    img: string,
+    link: string,
+    wishList: boolean,
+    discount: boolean,
+    discountValue: string,
+    oldPrice: string
 }
