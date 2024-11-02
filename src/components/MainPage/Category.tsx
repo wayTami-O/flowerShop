@@ -9,7 +9,7 @@ function Categories() {
                         <img src="../../public/img/categoryFlowers/categoryFlower.png" alt="" />
                         <div className="absolute w-full h-216 flex items-center justify-center bg-[#FFFFFFDE] backdrop-blur-4  top-194">
                             <div className="flex flex-col items-center justify-center gap-57">
-                                <h1 className="font-bold font-mons text-claret">Букеты</h1>
+                                <h1 className="text-44 font-bold font-mons text-claret">Букеты</h1>
                                 <button className="w-291 h-48 flex items-center justify-center bg-claret font-mons text-white text-24 rounded-20">Перейти в каталог</button>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ function Categories() {
                         <img src="../../public/img/categoryFlowers/categoryFlower.png" alt="" />
                         <div className="absolute w-full h-216 flex items-center justify-center bg-[#FFFFFFDE] backdrop-blur-4  top-194">
                             <div className="flex flex-col items-center justify-center gap-57">
-                                <h1 className="font-bold font-mons text-claret">Букеты</h1>
+                                <h1 className="text-44 font-bold font-mons text-claret">Букеты</h1>
                                 <button className="w-291 h-48 flex items-center justify-center bg-claret font-mons text-white text-24 rounded-20">Перейти в каталог</button>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ function Categories() {
                         <img src="../../public/img/categoryFlowers/categoryFlower.png" alt="" />
                         <div className="absolute w-full h-216 flex items-center justify-center bg-[#FFFFFFDE] backdrop-blur-4  top-194">
                             <div className="flex flex-col items-center justify-center gap-57">
-                                <h1 className="font-bold font-mons text-claret">Букеты</h1>
+                                <h1 className="text-44 font-bold font-mons text-claret">Букеты</h1>
                                 <button className="w-291 h-48 flex items-center justify-center bg-claret font-mons text-white text-24 rounded-20">Перейти в каталог</button>
                             </div>
                         </div>

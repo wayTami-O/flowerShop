@@ -1,4 +1,4 @@
-function Bouquet() {
+function WishList() {
     return (
         <>
         
@@ -6,4 +6,4 @@ function Bouquet() {
     );
 }
 
-export default Bouquet;
+export default WishList;

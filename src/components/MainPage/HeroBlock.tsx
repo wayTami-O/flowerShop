@@ -2,7 +2,7 @@ function HeroBlock() {
     return (
         <>
             <div className="relative">
-                <img className="w-1728" src="../../public/img/hero-img.png" alt="" />
+                <img className="w-1728" src="../public/img/hero-img.png" alt="" />
                 <p className="w-806 absolute left-86 bottom-198 font-uncage font-medium text-64 leading-72 text-white">Дарите счастье второй половинке вместе с </p>
                 <svg className="w-135 h-57 absolute bottom-218 left-459" width="135" height="57" viewBox="0 0 135 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 57V0H22.9144V5.67995H5.7118V17.1067H17.2026V22.7866H5.7118V57H0Z" fill="url(#paint0_linear_3_39)"/>
