@@ -11,8 +11,12 @@
     }
 
     html {
-        /* font-size: .833334vw; */
         font-size: 0.925925vw;
+    }
+
+    @font-face {
+        font-family: "UNCAGE";
+        src: url(../public/fonts/UNCAGE-Regular.ttf);
     }
 
     input {
@@ -21,4 +25,5 @@
         outline: none;
         padding: 0;
     }
+
 }
