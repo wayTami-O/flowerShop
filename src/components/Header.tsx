@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header() {
     return (
         <>
@@ -87,15 +89,17 @@ function Header() {
                                 </linearGradient>
                                 </defs>
                             </svg>
-                            <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M31.1667 7.83334C25.3 7.83334 22 12.7228 22 15.1667C22 12.7228 18.7 7.83334 12.8333 7.83334C6.96667 7.83334 5.5 12.7228 5.5 15.1667C5.5 28 22 37.1667 22 37.1667C22 37.1667 38.5 28 38.5 15.1667C38.5 12.7228 37.0333 7.83334 31.1667 7.83334Z" stroke="url(#paint0_linear_56_1194)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                <defs>
-                                <linearGradient id="paint0_linear_56_1194" x1="22" y1="7.83334" x2="22" y2="37.1667" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#A24C61"/>
-                                <stop offset="1" stop-color="#710C21"/>
-                                </linearGradient>
-                                </defs>
-                            </svg>
+                            <Link to={'/wishList'}>
+                                <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.1667 7.83334C25.3 7.83334 22 12.7228 22 15.1667C22 12.7228 18.7 7.83334 12.8333 7.83334C6.96667 7.83334 5.5 12.7228 5.5 15.1667C5.5 28 22 37.1667 22 37.1667C22 37.1667 38.5 28 38.5 15.1667C38.5 12.7228 37.0333 7.83334 31.1667 7.83334Z" stroke="url(#paint0_linear_56_1194)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_56_1194" x1="22" y1="7.83334" x2="22" y2="37.1667" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#A24C61"/>
+                                    <stop offset="1" stop-color="#710C21"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                            </Link>
                             <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.5 6H9.16667L10.0833 11.5M10.0833 11.5L12.8333 28H33L38.5 11.5H10.0833Z" stroke="url(#paint0_linear_56_1189)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M14.6667 39C15.6792 39 16.5 38.1792 16.5 37.1667C16.5 36.1541 15.6792 35.3333 14.6667 35.3333C13.6542 35.3333 12.8334 36.1541 12.8334 37.1667C12.8334 38.1792 13.6542 39 14.6667 39Z" stroke="url(#paint1_linear_56_1189)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>

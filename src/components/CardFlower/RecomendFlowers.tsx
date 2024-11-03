@@ -1,7 +1,7 @@
-import SwiperType from "../MainPage/swipers/type/SwiperType";
 import CardFlower from "../CardFlower";
+import SwiperType from "../MainPage/swipers/type/SwiperType";
 
-function FlowersTable() {
+function Recomendation() {
 
     const flowers: SwiperType[] = [
         {
@@ -48,15 +48,18 @@ function FlowersTable() {
 
     return (
         <>
-            <div className="px-86 pt-117 grid grid-cols-3 gap-y-88 gap-x-100">
-                {
-                    flowers.map((el, index) => (
-                        <CardFlower key={index} el={el} />
-                    ))
-                }
+            <div className="px-86 flex flex-col gap-100">
+                <h1 className="text-64 text-rose font-bold font-mons">Рекомендуемые товары</h1>
+                <div className="grid grid-cols-3 gap-y-88 gap-x-100">
+                    {
+                        flowers.map((el, index) => (
+                            <CardFlower key={index} el={el} />
+                        ))
+                    }
+                </div>
             </div>
         </>
     );
 }
 
-export default FlowersTable;
+export default Recomendation;
