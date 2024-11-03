@@ -5,6 +5,8 @@ import Flowers from './pages/Flowers'
 import WishList from './pages/WishList'
 import { Routes, Route } from 'react-router-dom'
 import './index.css'
+import Login from './pages/Login'
+import SignUp from './pages/SignUp'
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Route path='/flower'  element={<Flower />}/>
         <Route path='/baskets_flowers'  element={<BasketFlower />}/>
         <Route path='/wishList' element={<WishList />}/>
+        <Route path='/login' element={<Login />}/>
+        <Route path='/signup' element={<SignUp />}/>
       </Routes> 
     </>
   )
