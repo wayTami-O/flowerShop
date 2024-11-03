@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom'
 import './index.css'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
+import PrivateOffice from './pages/PrivateOffice'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/wishList' element={<WishList />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/signup' element={<SignUp />}/>
+        <Route path='/office' element={<PrivateOffice />}/>
       </Routes> 
     </>
   )

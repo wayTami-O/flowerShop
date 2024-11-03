@@ -1,15 +1,15 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import SignUpComponent from "@/components/SignUpPage/SignUpComponent";
+import OfficeComponent from "@/components/OfficePage/OfficeComponent";
 
-function SignUp() {
+function PrivateOffice() {
     return (
         <>
             <Header />
-            <SignUpComponent />
+            <OfficeComponent />
             <Footer />
         </>
     );
 }
 
-export default SignUp;
+export default PrivateOffice;
