@@ -10,7 +10,7 @@ function SwiperWeek({text}: {text: string}) {
         {
             title: "Букет “Нежность утра”",
             price: "4 600 ₽",
-            img: "/public/img/weekFlowers/weekFlower.png",
+            img: "/img/weekFlowers/weekFlower.png",
             link: "/wedding_flowers",
             wishList: false,
             discount: false,
@@ -20,7 +20,7 @@ function SwiperWeek({text}: {text: string}) {
         {
             title: "Букет “Цветочный коктейль”",
             price: "5 500 ₽",
-            img: "/public/img/weekFlowers/weekFlower.png",
+            img: "/img/weekFlowers/weekFlower.png",
             link: "/wedding_flowers",
             wishList: false,
             discount: true,
@@ -30,7 +30,7 @@ function SwiperWeek({text}: {text: string}) {
         {
             title: "Букет “Цветы счастья”",
             price: "7 300 ₽",
-            img: "/public/img/weekFlowers/weekFlower.png",
+            img: "/img/weekFlowers/weekFlower.png",
             link: "/wedding_flowers",
             wishList: false,
             discount: true,
@@ -40,7 +40,7 @@ function SwiperWeek({text}: {text: string}) {
         {
             title: "Букет “Сладкие сны”",
             price: "4 200 ₽",
-            img: "/public/img/weekFlowers/weekFlower.png",
+            img: "/img/weekFlowers/weekFlower.png",
             link: "/wedding_flowers",
             wishList: false,
             discount: false,

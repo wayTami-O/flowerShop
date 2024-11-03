@@ -7,7 +7,7 @@ function Recomendation() {
         {
             title: "Букет “Нежность утра”",
             price: "4 600 ₽",
-            img: "/public/img/weekFlowers/weekFlower.png",
+            img: "/img/weekFlowers/weekFlower.png",
             link: "/flower",
             wishList: false,
             discount: false,
@@ -17,7 +17,7 @@ function Recomendation() {
         {
             title: "Букет “Цветочный коктейль”",
             price: "5 500 ₽",
-            img: "/public/img/weekFlowers/weekFlower.png",
+            img: "/img/weekFlowers/weekFlower.png",
             link: "/flower",
             wishList: false,
             discount: true,
@@ -27,7 +27,7 @@ function Recomendation() {
         {
             title: "Букет “Цветы счастья”",
             price: "7 300 ₽",
-            img: "/public/img/weekFlowers/weekFlower.png",
+            img: "/img/weekFlowers/weekFlower.png",
             link: "/flower",
             wishList: false,
             discount: true,
@@ -37,7 +37,7 @@ function Recomendation() {
         {
             title: "Букет “Сладкие сны”",
             price: "4 200 ₽",
-            img: "/public/img/weekFlowers/weekFlower.png",
+            img: "/img/weekFlowers/weekFlower.png",
             link: "/flower",
             wishList: true,
             discount: false,
