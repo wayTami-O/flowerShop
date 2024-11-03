@@ -33,42 +33,42 @@ function OfficeComponent() {
                     <h1 className="font-bold text-kisses text-36 font-mons">История покупок</h1>
                     <div className="grid grid-cols-3 gap-x-70 gap-y-55">
                         <div className="mx-auto flex w-233 flex-col items-center justify-center border-1 border-rose rounded-20">
-                            <img className="pt-2 w-137 h-155" src="../../public/img/weekFlowers/weekFlower.png" alt="" />
+                            <img className="pt-2 w-137 h-155" src="/public/img/weekFlowers/weekFlower.png" alt="" />
                             <h2 className="pt-14 font-mons font-bold text-kisses text-12">Букет “Тепло любви”</h2>
                             <p className="pt-1 font-mons text-8 text-plum">4 800 ₽ </p>
                             <p className="pt-1 font-semibold font-mons text-rose text-8">Доставлен 25.05.24</p>
                             <button className="mt-7 mb-4 w-194 h-26 rounded-10 bg-plum text-white text-12 font-mons font-bold">Добавить в корзину</button>
                         </div>
                         <div className="mx-auto flex w-233 flex-col items-center justify-center border-1 border-rose rounded-20">
-                            <img className="pt-2 w-137 h-155" src="../../public/img/weekFlowers/weekFlower.png" alt="" />
+                            <img className="pt-2 w-137 h-155" src="/public/img/weekFlowers/weekFlower.png" alt="" />
                             <h2 className="pt-14 font-mons font-bold text-kisses text-12">Букет “Тепло любви”</h2>
                             <p className="pt-1 font-mons text-8 text-plum">4 800 ₽ </p>
                             <p className="pt-1 font-semibold font-mons text-rose text-8">Доставлен 25.05.24</p>
                             <button className="mt-7 mb-4 w-194 h-26 rounded-10 bg-plum text-white text-12 font-mons font-bold">Добавить в корзину</button>
                         </div>
                         <div className="mx-auto flex w-233 flex-col items-center justify-center border-1 border-rose rounded-20">
-                            <img className="pt-2 w-137 h-155" src="../../public/img/weekFlowers/weekFlower.png" alt="" />
+                            <img className="pt-2 w-137 h-155" src="/public/img/weekFlowers/weekFlower.png" alt="" />
                             <h2 className="pt-14 font-mons font-bold text-kisses text-12">Букет “Тепло любви”</h2>
                             <p className="pt-1 font-mons text-8 text-plum">4 800 ₽ </p>
                             <p className="pt-1 font-semibold font-mons text-rose text-8">Доставлен 25.05.24</p>
                             <button className="mt-7 mb-4 w-194 h-26 rounded-10 bg-plum text-white text-12 font-mons font-bold">Добавить в корзину</button>
                         </div>
                         <div className="mx-auto flex w-233 flex-col items-center justify-center border-1 border-rose rounded-20">
-                            <img className="pt-2 w-137 h-155" src="../../public/img/weekFlowers/weekFlower.png" alt="" />
+                            <img className="pt-2 w-137 h-155" src="/public/img/weekFlowers/weekFlower.png" alt="" />
                             <h2 className="pt-14 font-mons font-bold text-kisses text-12">Букет “Тепло любви”</h2>
                             <p className="pt-1 font-mons text-8 text-plum">4 800 ₽ </p>
                             <p className="pt-1 font-semibold font-mons text-rose text-8">Доставлен 25.05.24</p>
                             <button className="mt-7 mb-4 w-194 h-26 rounded-10 bg-plum text-white text-12 font-mons font-bold">Добавить в корзину</button>
                         </div>
                         <div className="mx-auto flex w-233 flex-col items-center justify-center border-1 border-rose rounded-20">
-                            <img className="pt-2 w-137 h-155" src="../../public/img/weekFlowers/weekFlower.png" alt="" />
+                            <img className="pt-2 w-137 h-155" src="/public/img/weekFlowers/weekFlower.png" alt="" />
                             <h2 className="pt-14 font-mons font-bold text-kisses text-12">Букет “Тепло любви”</h2>
                             <p className="pt-1 font-mons text-8 text-plum">4 800 ₽ </p>
                             <p className="pt-1 font-semibold font-mons text-rose text-8">Доставлен 25.05.24</p>
                             <button className="mt-7 mb-4 w-194 h-26 rounded-10 bg-plum text-white text-12 font-mons font-bold">Добавить в корзину</button>
                         </div>
                         <div className="mx-auto flex w-233 flex-col items-center justify-center border-1 border-rose rounded-20">
-                            <img className="pt-2 w-137 h-155" src="../../public/img/weekFlowers/weekFlower.png" alt="" />
+                            <img className="pt-2 w-137 h-155" src="/public/img/weekFlowers/weekFlower.png" alt="" />
                             <h2 className="pt-14 font-mons font-bold text-kisses text-12">Букет “Тепло любви”</h2>
                             <p className="pt-1 font-mons text-8 text-plum">4 800 ₽ </p>
                             <p className="pt-1 font-semibold font-mons text-rose text-8">Доставлен 25.05.24</p>

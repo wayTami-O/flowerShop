@@ -9,7 +9,7 @@ function CardFlower() {
                 </Link>
                 <h1 className="w-full text-center font-mons font-bold text-36 text-kisses">Букет “Весеннее пробуждение”</h1>
                 <div className="relative flex items-center justify-between">
-                    <img className="w-651 h-628" src="../../public/img/weekFlowers/weekFlower.png" alt="" />
+                    <img className="w-651 h-628" src="/public/img/weekFlowers/weekFlower.png" alt="" />
                     <div className="w-759 px-53 flex flex-col items-center gap-64">
                         <div className="flex w-full gap-3">
                             <p className="text-plum font-mons font-medium text-36">3 760 ₽</p>
