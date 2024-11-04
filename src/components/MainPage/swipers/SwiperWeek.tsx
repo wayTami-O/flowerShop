@@ -4,57 +4,58 @@ import { Link } from 'react-router-dom';
 import SwiperType from './type/SwiperType';
 import "swiper/swiper-bundle.css"
 
+const flowers: SwiperType[] = [
+    {
+        title: "Букет “Нежность утра”",
+        price: "4 600 ₽",
+        img: "/img/weekFlowers/weekFlower.png",
+        link: "/wedding_flowers",
+        wishList: false,
+        discount: false,
+        discountValue: "",
+        oldPrice: ""
+    },
+    {
+        title: "Букет “Цветочный коктейль”",
+        price: "5 500 ₽",
+        img: "/img/weekFlowers/weekFlower.png",
+        link: "/wedding_flowers",
+        wishList: false,
+        discount: true,
+        discountValue: "20%",
+        oldPrice: "300 P"
+    },
+    {
+        title: "Букет “Цветы счастья”",
+        price: "7 300 ₽",
+        img: "/img/weekFlowers/weekFlower.png",
+        link: "/wedding_flowers",
+        wishList: false,
+        discount: true,
+        discountValue: "20%",
+        oldPrice: "300 P"
+    },
+    {
+        title: "Букет “Сладкие сны”",
+        price: "4 200 ₽",
+        img: "/img/weekFlowers/weekFlower.png",
+        link: "/wedding_flowers",
+        wishList: false,
+        discount: false,
+        discountValue: "",
+        oldPrice: ""
+    }
+]
+
 function SwiperWeek({text}: {text: string}) {
 
-    const flowers: SwiperType[] = [
-        {
-            title: "Букет “Нежность утра”",
-            price: "4 600 ₽",
-            img: "/img/weekFlowers/weekFlower.png",
-            link: "/wedding_flowers",
-            wishList: false,
-            discount: false,
-            discountValue: "",
-            oldPrice: ""
-        },
-        {
-            title: "Букет “Цветочный коктейль”",
-            price: "5 500 ₽",
-            img: "/img/weekFlowers/weekFlower.png",
-            link: "/wedding_flowers",
-            wishList: false,
-            discount: true,
-            discountValue: "20%",
-            oldPrice: "300 P"
-        },
-        {
-            title: "Букет “Цветы счастья”",
-            price: "7 300 ₽",
-            img: "/img/weekFlowers/weekFlower.png",
-            link: "/wedding_flowers",
-            wishList: false,
-            discount: true,
-            discountValue: "20%",
-            oldPrice: "300 P"
-        },
-        {
-            title: "Букет “Сладкие сны”",
-            price: "4 200 ₽",
-            img: "/img/weekFlowers/weekFlower.png",
-            link: "/wedding_flowers",
-            wishList: false,
-            discount: false,
-            discountValue: "",
-            oldPrice: ""
-        }
-    ]
 
     return (
         <>
             <h1 className="px-86 pt-122 pb-87 font-mons font-bold text-64 text-rose">{text}</h1>
             <div className="flex relative gap-34">
                 <div id='prevElWeek' className="my-auto ml-33 w-80 h-80 flex items-center justify-center bg-rose rounded-60">
-                    <svg width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className=' w-6 h-10' width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.6667 3.33337L3 20L19.6667 36.6667" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
@@ -80,7 +81,7 @@ function SwiperWeek({text}: {text: string}) {
                                             <p className="flex gap-2 text-kisses text-mons text-16">{el.price} {el.discount ? <p className=" text-plum20  text-mons text-16">{el.oldPrice}</p> : null}</p>
                                         </div>
                                     </div>
-                                    <button className="w-full h-52 font-bold bg-plum text-white font-mons rounded-15">Добавить в корзину</button>
+                                    <button className="w-full h-5 font-bold bg-plum text-white font-mons rounded-15">Добавить в корзину</button>
                                     { el.discount ?      
                                         <div className="h-36 px-3 flex items-center justify-center absolute -right-41 top-0 bg-plum text-white">{el.discountValue}</div> 
                                         : null
@@ -90,8 +91,8 @@ function SwiperWeek({text}: {text: string}) {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-                <div id='nextElWeek' className="my-auto mr-33 w-80 h-80 flex items-center justify-center bg-rose rounded-60 rotate-180">
-                    <svg width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div id='nextElWeek' className="my-auto mr-32 w-80 h-80 flex items-center justify-center bg-rose rounded-60 rotate-180">
+                    <svg className=' w-6 h-10' width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.6667 3.33337L3 20L19.6667 36.6667" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>

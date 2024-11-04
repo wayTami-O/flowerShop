@@ -12,7 +12,7 @@ function FlowersTable() {
             wishList: false,
             discount: false,
             discountValue: "",
-            oldPrice: ""
+            oldPrice: "",
         },
         {
             title: "Букет “Цветочный коктейль”",

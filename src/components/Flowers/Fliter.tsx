@@ -6,6 +6,7 @@ import { Select,
 } from "@/components/ui/select"
 import { Link } from "react-router-dom";
 
+// {setData}:{setData: (data:any[]) => void}
 function Filter() {
     return (
         <>
@@ -13,7 +14,19 @@ function Filter() {
                 <Link to={'/'}>
                     <button className="w-444 h-84 flex items-center justify-center text-28 bg-rose rounded-40 font-mons font-bold text-white">Вернуться на главную</button>
                 </Link>
-                <Select>
+                <Select 
+                // onValueChange={(value)=>{
+                    // console.log(value);
+                    // switch (value) {
+                    //     case "new":
+                    //         // setData(]);
+                    //         break;
+                    
+                    //     default:
+                    //         break;
+                    // }
+                // }}
+                >
                     <SelectTrigger className="w-548 h-84 !rounded-40 !border-3 border-pink !text-28 text-pink !font-mons !font-medium">
                         <SelectValue placeholder="Сортировать" />
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
