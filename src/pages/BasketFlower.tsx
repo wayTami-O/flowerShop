@@ -1,18 +1,29 @@
 import BasketComponent from "@/components/BasketPage/BasketComponent";
 import PayMethods from "@/components/BasketPage/PayMethods";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import { useState } from "react";
+
+type TBasket = "buy" | "card";
 
 function BasketFlower() {
+
+    const [state,setState] = useState<TBasket>("buy");
+
+
+    const handleSwitch = (type: TBasket) => {
+        switch (type) {
+            case "buy":
+                return "buy";
+            case "card":
+                return "card";
+        }
+    }
+
     return (
         <>
-            <Header />
-
             <BasketComponent />
-
             <PayMethods />
-
-            <Footer />
+            {handleSwitch(state)}
+            <button onClick={()=>setState(prev=>prev == "buy" ? "card" : "buy")}>change</button>
         </>
     );
 }
