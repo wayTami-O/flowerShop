@@ -1,53 +1,6 @@
-import SwiperType from "../MainPage/swipers/type/SwiperType";
 import BasketCard from "./BasketFlowet";
 import { useBasket } from "@/storage/basketStorage";
 
-// const flower: SwiperType[] = [
-//     {
-//         id: 1,
-//         title: "Букет “Нежность утра”",
-//         price: "4 600 ₽",
-//         img: "/img/weekFlowers/weekFlower.png",
-//         link: "/wedding_flowers",
-//         wishList: false,
-//         discount: false,
-//         discountValue: "",
-//         oldPrice: ""
-//     },
-//     {
-//         id: 2,
-//         title: "Букет “Цветочный коктейль”",
-//         price: "5 500 ₽",
-//         img: "/img/weekFlowers/weekFlower.png",
-//         link: "/wedding_flowers",
-//         wishList: false,
-//         discount: true,
-//         discountValue: "20%",
-//         oldPrice: "300 P"
-//     },
-//     {
-//         id: 3,
-//         title: "Букет “Цветы счастья”",
-//         price: "7 300 ₽",
-//         img: "/img/weekFlowers/weekFlower.png",
-//         link: "/wedding_flowers",
-//         wishList: false,
-//         discount: true,
-//         discountValue: "20%",
-//         oldPrice: "300 P"
-//     },
-//     {
-//         id: 4,
-//         title: "Букет “Сладкие сны”",
-//         price: "4 200 ₽",
-//         img: "/img/weekFlowers/weekFlower.png",
-//         link: "/wedding_flowers",
-//         wishList: false,
-//         discount: false,
-//         discountValue: "",
-//         oldPrice: ""
-//     }
-// ]
 
 function BasketComponent() {
 

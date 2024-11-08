@@ -7,5 +7,9 @@ export default interface SwiperType {
     wishList: boolean,
     discount: boolean,
     discountValue: string,
-    oldPrice: string
+    oldPrice: string,
+    filter: filter,
+    priceNum: number
 }
+
+type filter = "new" | "favorite"

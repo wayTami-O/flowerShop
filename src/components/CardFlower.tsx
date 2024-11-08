@@ -35,6 +35,8 @@ function CardFlower(el: {el: SwiperType}) {
         }
     }
 
+    
+
     return (
         <>
             <div className="relative w-460 border-3 border-pink flex flex-col items-center justify-center gap-7 px-40 py-5 rounded-20">

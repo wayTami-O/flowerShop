@@ -1,6 +1,7 @@
 import SwiperType from "../MainPage/swipers/type/SwiperType";
 import CardFlower from "../CardFlower";
 import { useFavorite } from "@/storage/favoriteStorage";
+import { useFilter, filterChoose } from "@/storage/filterStoreage";
 
 const flowers: SwiperType[] = [
     {
@@ -12,7 +13,9 @@ const flowers: SwiperType[] = [
         wishList: false,
         discount: false,
         discountValue: "",
-        oldPrice: ""
+        oldPrice: "",
+        filter: "favorite",
+        priceNum: 4600
     },
     {
         id: 2,
@@ -23,7 +26,9 @@ const flowers: SwiperType[] = [
         wishList: false,
         discount: true,
         discountValue: "20%",
-        oldPrice: "300 P"
+        oldPrice: "300 P",
+        filter: "new",
+        priceNum: 5500
     },
     {
         id: 3,
@@ -34,7 +39,9 @@ const flowers: SwiperType[] = [
         wishList: false,
         discount: true,
         discountValue: "20%",
-        oldPrice: "300 P"
+        oldPrice: "300 P",
+        filter: "favorite",
+        priceNum: 7300
     },
     {
         id: 4,
@@ -45,27 +52,61 @@ const flowers: SwiperType[] = [
         wishList: true,
         discount: false,
         discountValue: "",
-        oldPrice: ""
+        oldPrice: "",
+        filter: "new",
+        priceNum: 4200
     }
 ]
 
 
 interface isFavorite {
-    isFavorite: boolean
+    isFavorite: boolean,
+    filter: boolean
+
 }
 
-function FlowersTable({ isFavorite }: isFavorite) {
+function FlowersTable({ isFavorite, filter }: isFavorite) {
     
     const arrayFavorite = useFavorite((state) => state.favoriteArray)
+    
+    const filterValue = useFilter((state) => state.filterValue)
+
+    const renderArray = isFavorite ? arrayFavorite?.map(el => (el)) : flowers.map(el => (el))
+
+    let filtersArray: SwiperType[] = []
+
+    switch (filterValue) {
+        case "new":
+            filtersArray = renderArray.filter(i => i.filter == "new")
+            break;
+    
+        case "favorite":
+            filtersArray = renderArray.filter(i => i.filter == "favorite")
+            break;
+
+        case "expensiveToCheaper":
+            filtersArray = renderArray.sort((a, b) => b.priceNum - a.priceNum)
+            break;
+
+        case "expensiveToCheaper":
+            filtersArray = renderArray.sort((a, b) => a.priceNum - b.priceNum)
+            break;
+
+        default:
+            filtersArray = renderArray
+            break;
+    }
+
     return (
         <>
             <div className="px-86 pt-117 grid grid-cols-3 gap-y-88 gap-x-100">
-                {isFavorite ?
-                    arrayFavorite?.map((el, index) => (
+                {
+                    filter ? 
+                    filtersArray.map((el, index) => (
                         <CardFlower key={index} el={el} />
                     ))
                     :
-                    flowers.map((el, index) => (
+                    renderArray.map((el, index) => (
                         <CardFlower key={index} el={el} />
                     ))
                 }

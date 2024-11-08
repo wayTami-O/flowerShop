@@ -7,7 +7,7 @@ function WishList() {
         <>
             <Header />
             <h1 className="px-86 pt-30 font-mons text-64 font-bold text-rose">Избранное</h1>
-            <FlowersTable isFavorite={true} />
+            <FlowersTable isFavorite={true} filter={false} />
             <Footer />
         </>
     );

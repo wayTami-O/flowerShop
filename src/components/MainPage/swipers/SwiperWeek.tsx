@@ -16,7 +16,9 @@ function SwiperWeek({text}: {text: string}) {
             wishList: false,
             discount: false,
             discountValue: "",
-            oldPrice: ""
+            oldPrice: "",
+            filter: "favorite",
+            priceNum: 4600
         },
         {
             id: 2,
@@ -27,7 +29,9 @@ function SwiperWeek({text}: {text: string}) {
             wishList: false,
             discount: true,
             discountValue: "20%",
-            oldPrice: "300 P"
+            oldPrice: "300 P",
+            filter: "new",
+            priceNum: 5500
         },
         {
             id: 3,
@@ -38,7 +42,9 @@ function SwiperWeek({text}: {text: string}) {
             wishList: false,
             discount: true,
             discountValue: "20%",
-            oldPrice: "300 P"
+            oldPrice: "300 P",
+            filter: "favorite",
+            priceNum: 7300
         },
         {
             id: 4,
@@ -49,7 +55,9 @@ function SwiperWeek({text}: {text: string}) {
             wishList: false,
             discount: false,
             discountValue: "",
-            oldPrice: ""
+            oldPrice: "",
+            filter: "new",
+            priceNum: 4200
         }
     ]
 
@@ -81,7 +89,7 @@ function SwiperWeek({text}: {text: string}) {
                                         <img src={el.img} alt={el.title} />
                                         <div className="flex flex-col items-center gap-5">
                                             <p className="text-kisses text-mons text-20 font-bold">{el.title}</p>
-                                            <p className="flex gap-2 text-kisses text-mons text-16">{el.price} {el.discount ? <p className=" text-plum20  text-mons text-16">{el.oldPrice}</p> : null}</p>
+                                            <div className="flex gap-2 text-kisses text-mons text-16">{el.price} {el.discount ? <p className=" text-plum20  text-mons text-16">{el.oldPrice}</p> : null}</div>
                                         </div>
                                     </div>
                                     <button className="w-full h-52 font-bold bg-plum text-white font-mons rounded-15">Добавить в корзину</button>

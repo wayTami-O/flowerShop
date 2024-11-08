@@ -8,7 +8,7 @@ function Flowers() {
         <>
             <Header />
             <Filter />
-            <FlowersTable isFavorite={false} />
+            <FlowersTable isFavorite={false} filter={true} />
             <Footer />
         </>
     );
