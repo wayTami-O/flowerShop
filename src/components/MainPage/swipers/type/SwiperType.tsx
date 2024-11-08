@@ -1,4 +1,5 @@
 export default interface SwiperType {
+    id: number,
     title: string, 
     price: string,
     img: string,

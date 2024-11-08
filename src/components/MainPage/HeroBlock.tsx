@@ -12,24 +12,24 @@ function HeroBlock() {
                     <path d="M112.086 57V11.3933H117.797V19.1114C118.111 18.755 118.447 18.4097 118.805 18.0756C123.285 13.6208 128.683 11.3933 135 11.3933V17.1067C130.251 17.1067 126.197 18.7773 122.837 22.1184C119.477 25.4596 117.797 29.4912 117.797 34.2134V57H112.086Z" fill="url(#paint4_linear_3_39)"/>
                     <defs>
                     <linearGradient id="paint0_linear_3_39" x1="67.5" y1="0" x2="67.5" y2="57" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#A24C61"/>
-                    <stop offset="1" stop-color="#710C21"/>
+                    <stop stopColor="#A24C61"/>
+                    <stop offset="1" stopColor="#710C21"/>
                     </linearGradient>
                     <linearGradient id="paint1_linear_3_39" x1="67.5" y1="0" x2="67.5" y2="57" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#A24C61"/>
-                    <stop offset="1" stop-color="#710C21"/>
+                    <stop stopColor="#A24C61"/>
+                    <stop offset="1" stopColor="#710C21"/>
                     </linearGradient>
                     <linearGradient id="paint2_linear_3_39" x1="67.5" y1="0" x2="67.5" y2="57" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#A24C61"/>
-                    <stop offset="1" stop-color="#710C21"/>
+                    <stop stopColor="#A24C61"/>
+                    <stop offset="1" stopColor="#710C21"/>
                     </linearGradient>
                     <linearGradient id="paint3_linear_3_39" x1="67.5" y1="0" x2="67.5" y2="57" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#A24C61"/>
-                    <stop offset="1" stop-color="#710C21"/>
+                    <stop stopColor="#A24C61"/>
+                    <stop offset="1" stopColor="#710C21"/>
                     </linearGradient>
                     <linearGradient id="paint4_linear_3_39" x1="67.5" y1="0" x2="67.5" y2="57" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#A24C61"/>
-                    <stop offset="1" stop-color="#710C21"/>
+                    <stop stopColor="#A24C61"/>
+                    <stop offset="1" stopColor="#710C21"/>
                     </linearGradient>
                     </defs>
                 </svg>

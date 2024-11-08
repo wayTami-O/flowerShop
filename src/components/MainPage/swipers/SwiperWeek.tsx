@@ -8,6 +8,7 @@ function SwiperWeek({text}: {text: string}) {
 
     const flowers: SwiperType[] = [
         {
+            id: 1,
             title: "Букет “Нежность утра”",
             price: "4 600 ₽",
             img: "/img/weekFlowers/weekFlower.png",
@@ -18,6 +19,7 @@ function SwiperWeek({text}: {text: string}) {
             oldPrice: ""
         },
         {
+            id: 2,
             title: "Букет “Цветочный коктейль”",
             price: "5 500 ₽",
             img: "/img/weekFlowers/weekFlower.png",
@@ -28,6 +30,7 @@ function SwiperWeek({text}: {text: string}) {
             oldPrice: "300 P"
         },
         {
+            id: 3,
             title: "Букет “Цветы счастья”",
             price: "7 300 ₽",
             img: "/img/weekFlowers/weekFlower.png",
@@ -38,6 +41,7 @@ function SwiperWeek({text}: {text: string}) {
             oldPrice: "300 P"
         },
         {
+            id: 4,
             title: "Букет “Сладкие сны”",
             price: "4 200 ₽",
             img: "/img/weekFlowers/weekFlower.png",
@@ -55,7 +59,7 @@ function SwiperWeek({text}: {text: string}) {
             <div className="flex relative gap-34">
                 <div id='prevElWeek' className="my-auto ml-33 w-80 h-80 flex items-center justify-center bg-rose rounded-60">
                     <svg width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.6667 3.33337L3 20L19.6667 36.6667" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M19.6667 3.33337L3 20L19.6667 36.6667" stroke="white" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                 </div>
                 <Swiper 
@@ -92,7 +96,7 @@ function SwiperWeek({text}: {text: string}) {
                 </Swiper>
                 <div id='nextElWeek' className="my-auto mr-33 w-80 h-80 flex items-center justify-center bg-rose rounded-60 rotate-180">
                     <svg width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.6667 3.33337L3 20L19.6667 36.6667" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M19.6667 3.33337L3 20L19.6667 36.6667" stroke="white" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                 </div>
             </div>
