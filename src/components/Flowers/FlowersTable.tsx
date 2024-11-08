@@ -1,7 +1,7 @@
 import SwiperType from "../MainPage/swipers/type/SwiperType";
 import CardFlower from "../CardFlower";
 import { useFavorite } from "@/storage/favoriteStorage";
-import { useFilter, filterChoose } from "@/storage/filterStoreage";
+import { useFilter } from "@/storage/filterStoreage";
 
 const flowers: SwiperType[] = [
     {
@@ -88,7 +88,7 @@ function FlowersTable({ isFavorite, filter }: isFavorite) {
             filtersArray = renderArray.sort((a, b) => b.priceNum - a.priceNum)
             break;
 
-        case "expensiveToCheaper":
+        case "cheaperToExpensive":
             filtersArray = renderArray.sort((a, b) => a.priceNum - b.priceNum)
             break;
 
